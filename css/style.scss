@@ -1,0 +1,22 @@
+// import variables
+@use 'inc/variables' as *;
+
+// import mixins
+@import 'inc/mixins';
+
+// import container
+@import 'inc/container';
+
+// import default rules
+@import 'inc/default';
+
+// import header
+@import 'inc/header';
+
+// import main
+@import 'inc/content';
+
+body {
+	background-color: $bgColor;
+	color: white;
+}
